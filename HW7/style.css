@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    position: relative;
+    width: 1400px;
+    height: 1772px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.star{
+    background-color: #FFFFFF;
+    border-radius: 32px;
+}
+
+.size-big{
+    position: absolute;
+    width: 137px;
+    height: 137px;
+
+    margin: 68px 1189px 1567px 74px;
+}
+.size-2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+}
+.size-2.el-1{
+    margin: 23px 580px 1659px 730px;
+}
+.size-4{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+}
+.size-4.elem-1 {
+    margin: 47px 904px 1683px 454px;
+}
+.size-3{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    margin: 68px 183px 1621px 1134px;
+}
+.size-5{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 337px 1111px 1384px 238px;
+}
+.size-4.elem-2{
+    margin: 294px 224px 1436px 1134px;
+}
+.size-small{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 453px 1284px 1294px 91px;
+}
+.size-2.el-2{
+    margin: 484px 946px 1198px 364px;
+}
+.size-2.el-3{
+    margin: 484px 415px 1198px 895px;
+}
+.size-6{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    margin: 453px 120px 1256px 1217px;
+}
+.btn{
+    width: 264px;
+    height: 73px;
+    /*color: #000000;*/
+    border-radius: 32px;
+    margin: 326px 625px 0 570px;
+    padding: 26px 59px 26px 58px;
+    cursor: pointer;
+    font-family: Space Grotesk;
+    /*font-size: 17px*/
+}
+.colortext{
+    color: #750505;
+}
+/*//////////////////// WRAPPER*/
+.wrapper{
+    position: relative;
+    margin-top: 297px;
+}
+.card-wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 53px;
+}
+.nft{
+    position: relative;
+    width: 178px;
+    height: 251px;
+    background: #3E3E3E;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 1px solid #73807C;
+    z-index: 10;
+}
+.card{
+    position: relative;
+    width: 178px;
+    height: 251px;
+    background: #3E3E3E;
+    margin-right: 40px;
+    border-radius: 12px;
+    border: 1px solid #73807C;
+    z-index: 1;
+}
+.wait-card{
+    position: relative;
+    margin-top: -252px;
+    width: 180px;
+    height: 251px;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: -1;
+}
+.nft:hover .wait-card {
+    transform: translate(0, 23px);
+    transition: .2s linear;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.btn-delete{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+}
+.photo{
+    width: 165px;
+    height: 195px;
+    margin: 6px 6px;
+    border-radius: 10px;
+}
+.name{
+    position: absolute;
+    top: 16px;
+    left: 17px;
+    font-size: 19px;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+.description{
+    position: absolute;
+    bottom: 21px;
+    left: 17px;
+    font-size: 17px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
